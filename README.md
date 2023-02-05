@@ -7,4 +7,5 @@ The design is highly inspired from [sassafras](https://github.com/brandonsaldan/
 
 ## License
 ---
-I have decided to put an [MIT License](LICENSE) on this repo. 
+For this project I have chose the [MIT License](https://choosealicense.com/licenses/mit/) it's specified in the [LICENSE](./LICENSE) file.
+
