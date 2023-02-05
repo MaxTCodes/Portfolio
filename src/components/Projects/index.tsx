@@ -15,7 +15,7 @@ export function Projects() {
                         <div className="mt-6 md:mt-8">
                             <a href="https://github.com/BoredDeveloperProjects/PlayFab-Finder" rel="noreferrer" target="_blank">
                                 <p className="text-base font-bold font-base leading-7 text-gray-100 sm:text-sm sm:truncate tracking-tight md:mb-2">Playfab User Finder</p>
-                                <p className="hidden sm:block font-base leading-7 text-gray-100 sm:text-sm tracking-tight">A program that can find a player in any playfab room given a TitleId and username.</p>
+                                <p className="hidden sm:block font-base leading-7 text-gray-100 sm:text-sm tracking-tight">A program that can find a player in any playfab room given a TitleId and username. Developed for Penetration Testing Purposes.</p>
                             </a>
                         </div>
                         <div className="mt-6 md:mt-10">
@@ -37,7 +37,7 @@ export function Projects() {
                         <div className="mt-6 md:mt-8">
                             <a href="https://github.com/BoredDeveloperProjects/PlayFab-Spammer" rel="noreferrer" target="_blank">
                                 <p className="text-base font-bold font-base leading-7 text-gray-100 sm:text-sm sm:truncate tracking-tight md:mb-2">Playfab User Generator</p>
-                                <p className="hidden sm:block font-base leading-7 text-gray-100 sm:text-sm tracking-tight">A program that makes many new accounts with a prefix in the username fast on a playfab instance in given a TitleId.</p>
+                                <p className="hidden sm:block font-base leading-7 text-gray-100 sm:text-sm tracking-tight">A program that makes many new accounts with a prefix in the username fast on a playfab instance in given a TitleId. Developed for Penetration Testing Purposes.</p>
                             </a>
                         </div>
                         <div className="mt-6 md:mt-8">
