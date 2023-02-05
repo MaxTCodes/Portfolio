@@ -91,10 +91,14 @@ export function Spotify(props: SpotifyProps) {
         if(reloadNeeded) {return location.reload();}
 
         let updateIn = UpdateMinimum;
+        // has to be https because cloudflare enforces https on all clients
         const res = await fetch("https://api.maxthakur.xyz/nowPlaying", { cache: "no-store" });
         const data: NowPlaying = await res.json() as NowPlaying;
+        
         const listeningText = ListeningText.current;
-        if (!listeningText) { return; }
+        
+        if (!listeningText) { setTimeout(() => {updateSpotify();}, updateIn * 1000); return; }
+        
         if (!data.success) {
             if (data.message && listeningText) {
                 if (data.message.toLowerCase().includes("nothing is playing!")) {
