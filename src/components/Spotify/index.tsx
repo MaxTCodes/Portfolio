@@ -94,7 +94,7 @@ export function Spotify() {
         fetchData();
         const interval = setInterval(async () => {
             setCycle(Cycle+1);
-        }, 5000)
+        }, (5 + Math.floor(Math.random() * 11))*100)
         return () => clearInterval(interval);
     },[Cycle]);
 
