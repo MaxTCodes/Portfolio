@@ -30,7 +30,7 @@ export function Spotify() {
     const [song, setSong] = useState<BasicData>({Link: "", Name: "Loading..."});
     const [device, setDevice] = useState(" Loading...");
     const [reloadNeeded, setReloadNeed] = useState(false);
-    const [Cycle, setCycle] = useState(0);
+    const [updated, setUpdated] = useState(false);
     
     // refs
     const ListeningText = React.createRef<React.ElementRef<'span'>>();
@@ -93,10 +93,10 @@ export function Spotify() {
     useEffect(() => {
         fetchData();
         const interval = setInterval(async () => {
-            setCycle(Cycle+1);
+            setUpdated(!updated)
         }, (5 + Math.floor(Math.random() * 11))*100)
         return () => clearInterval(interval);
-    },[Cycle]);
+    },[updated]);
 
     return (
         <>
