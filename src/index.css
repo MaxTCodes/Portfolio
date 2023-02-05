@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  src: url('./fonts/inter/Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Inter Extra';
+  src: url('./fonts/inter/ExtraBold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  src: url('./fonts/inter/Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Inter';
+  src: url('./fonts/inter/Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+html, body {
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #00050e;
+}
+
+.au {
+  text-decoration-color: #ed1c49;
+}
+
+.mu {
+  text-decoration-color: #fd3a4a;
+}
+
+.gu {
+  text-decoration-color: #F6A01A;
+}
+
+.lu {
+  text-decoration-color: #0A66C2;
+}
+
+.he {
+  text-decoration-color: #9a9a9a;
+}
