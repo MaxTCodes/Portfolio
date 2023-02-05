@@ -58,7 +58,6 @@ export function Spotify() {
     }
 
     const fetchData = async () => {
-        if(reloadNeeded) {return location.reload();}
         // has to be https because cloudflare enforces https on all clients
         const res = await fetch("https://api.maxthakur.xyz/nowPlaying", { cache: "no-store" });
         const data: NowPlaying = await res.json() as NowPlaying;
@@ -71,19 +70,20 @@ export function Spotify() {
             if (data.message && listeningText) {
                 if (data.message.toLowerCase().includes("nothing is playing!")) {
                     removeAllChildren(listeningText);
-                    listeningText.innerText = "It seems Max is not listening to anything! Check back later!";
+                    listeningText.innerText = "it seems Max is not listening to anything! Check back later!";
                     
                     setReloadNeed(true);
                 }
             }
         } else {
-            // if sucess == true these should be defined
+            // if success == true these should be defined
             if (!data.songEndTime || !data.playingData?.Artist) {
                 removeAllChildren(listeningText);
                 listeningText.innerText = "There was an error, please wait.";
                 setReloadNeed(true);
                 return;
             }
+            if(reloadNeeded) {return location.reload();}
             SetArtist(data.playingData.Artist);
             setSong(data.playingData.Song);
             setDevice(data.playingData.Device);
