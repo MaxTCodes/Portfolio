@@ -103,7 +103,7 @@ export function Spotify() {
             <div className="w-full text-center px-0">
                 <div className="items-center text-gray-200 leading-none lg:rounded-full flex lg:inline-flex mt-4">
                     <span className="text-sm font-medium text-center flex-auto">Currently,&nbsp;
-                        <span ref={ListeningText}>I am listening to&nbsp;
+                        <span ref={ListeningText}>Max is listening to&nbsp;
                             <span className="text-sm font-bold text-center flex-auto underline hover:no-underline hover:cursor-pointer" onClick={(e) => { ClickHandler(e, "song") }}>{song.Name}</span>
                             <span className="text-sm font-regular text-center flex-auto"> by&nbsp;</span>
                             <span className="text-sm font-bold text-center flex-auto underline hover:cursor-pointer hover:no-underline " onClick={(e) => { ClickHandler(e, "artist") }}>{artist.Name}</span>
