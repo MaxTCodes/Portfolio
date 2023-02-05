@@ -93,7 +93,6 @@ export function Spotify() {
     useEffect(() => {
         fetchData();
         const interval = setInterval(async () => {
-            await fetchData();
             setCycle(Cycle+1);
         }, 5000)
         return () => clearInterval(interval);
