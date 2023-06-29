@@ -1,6 +1,3 @@
-import React from "react";
-
-// migrated to a function as recommended by https://beta.reactjs.org/reference/react/Component
 export function Divider() {
     return (
         <div className="mt-6 relative pb-6">
