@@ -10,7 +10,7 @@ export default class extends React.Component {
         {/* Welcome Message */}
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex-1 min-w-0 text-center pb-5 px-0">
-            <h1 className="text-xl font-bold leading-7 text-gray-100 sm:truncate tracking-tight">Welcome to Dominick &ldquo;Max&rdquo; Thakur&apos;s Portfolio!</h1>
+            <h1 className="text-xl font-bold leading-7 text-gray-100 sm:truncate tracking-tight">Welcome to Max T&apos;s Portfolio!</h1>
           </div>
         </div>
         {/* Bio Start */}
