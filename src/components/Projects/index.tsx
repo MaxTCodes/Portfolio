@@ -29,13 +29,13 @@ export function Projects() {
                 <Card>
                     <a href="https://github.com/MaxTCodes/WordleWordBot" rel="noreferrer" target="_blank">
                         <p className="text-sm sm:truncate font-bold font-base leading-7 text-gray-100 tracking-tight md:text-md md:mb-2">Wordle Word Bot</p>
-                        <p className="hidden sm:block font-base leading-7 text-gray-100 sm:text-sm tracking-tight">Every day at midnight it would tweet out the wordle of the day, ruinning it for the people who got it recommended by Twitter's Algorithm.</p>
+                        <p className="hidden sm:block font-base leading-7 text-gray-100 sm:text-sm tracking-tight">Every day at midnight it would tweet out the wordle of the day. Used cron, twitter's old API.</p>
                     </a>
                 </Card>
                 <Card>
-                    <a href="https://www.sustainableurbandesign.space/" rel="noreferrer" target="_blank">
-                        <p className="text-sm sm:truncate font-bold font-base leading-7 text-gray-100 tracking-tight md:text-md">Sustainable Urban Design</p>
-                        <p className="hidden sm:block font-base leading-7 text-gray-100 sm:text-sm tracking-tight">An open-source project to create a tool that can help designers consider the comprehensive effects and sustainability of their urban designs.</p>
+                    <a href="https://apply.sirius.menu" rel="noreferrer" target="_blank">
+                        <p className="text-sm sm:truncate font-bold font-base leading-7 text-gray-100 tracking-tight md:text-md">Sirius Application Website</p>
+                        <p className="hidden sm:block font-base leading-7 text-gray-100 sm:text-sm tracking-tight">The web-based application website used to apply for support for <a href="https://sirius.menu" rel="noreferrer" target="_blank">Sirius</a>.</p>
                     </a>
                 </Card>
             </div>
