@@ -35,7 +35,7 @@ export function Projects() {
                 <Card>
                     <a href="https://apply.sirius.menu" rel="noreferrer" target="_blank">
                         <p className="text-sm sm:truncate font-bold font-base leading-7 text-gray-100 tracking-tight md:text-md">Sirius Application Website</p>
-                        <p className="hidden sm:block font-base leading-7 text-gray-100 sm:text-sm tracking-tight">The web-based application website used to apply for support for <a href="https://sirius.menu" rel="noreferrer" target="_blank">Sirius</a>.</p>
+                        <p className="hidden sm:block font-base leading-7 text-gray-100 sm:text-sm tracking-tight">The web-based application website used to apply for support at <a href="https://sirius.menu" rel="noreferrer" target="_blank">Sirius</a>.</p>
                     </a>
                 </Card>
             </div>
