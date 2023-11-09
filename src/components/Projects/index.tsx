@@ -17,8 +17,8 @@ export function Projects() {
         <>
             <div className="container m-auto grid grid-flow-col grid-cols-2 grid-rows-2 gap-x-5 gap-y-6 text-center pt-6">
                 <Card>
-                    <p className="text-sm sm:truncate font-bold font-base leading-7 text-gray-100 tracking-tight md:text-md md:mb-2">American Football CV Stats</p>
-                    <p className="hidden sm:block font-base leading-7 text-gray-100 sm:text-sm tracking-tight">An application that processes videos of High School American Football, and extracts the stats & there are more features coming.</p>
+                    <p className="text-sm sm:truncate font-bold font-base leading-7 text-gray-100 tracking-tight md:text-md md:mb-2">Custom Weather Station</p>
+                    <p className="hidden sm:block font-base leading-7 text-gray-100 sm:text-sm tracking-tight">As a learning opportunity I took on the challenge of creating my device, from the PCB to the case it's stored in.</p>
                 </Card>
                 <Card>
                     <a href="https://github.com/MaxTCodes/Portfolio-Api" rel="noreferrer" target="_blank">
