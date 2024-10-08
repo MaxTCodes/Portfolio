@@ -36,7 +36,7 @@ export const Bio = () => {
           !
         </p>
         <p className="mt-4 text-gray-200 sm:text-sm tracking-tight">
-          I have been coding for six years. I&apos;ve worked at{" "}
+          I have been coding for nine years. I&apos;ve worked at{" "}
           <Link color="auraside" href="https://auraside.com/">
             Auraside
           </Link>
@@ -61,7 +61,7 @@ export const Bio = () => {
             LinkedIn
           </Link>{" "}
           or{" "}
-          <Link color="email" href="mailto:max@maxthakur.xyz">
+          <Link color="github" href="mailto:max@maxthakur.xyz">
             send me an email
           </Link>
           !
